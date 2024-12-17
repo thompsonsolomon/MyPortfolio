@@ -214,7 +214,7 @@ const projects = [
     source_code_link: "https://github.com/thompsonsolomon/SocialApp",
   },
   {
-    name: "Netflix",
+    name: "Trailer Trove ",
     description:
       "Web application that enables users to watch movie traliers and get entertained, with a user interface like the updated netflix .",
     tags: [
@@ -232,7 +232,7 @@ const projects = [
       },
     ],
     image: Netflix,
-    main_app_link: "https://solomonthompson11111.netlify.app",
+    main_app_link: "https://trailertrove.netlify.app/",
     source_code_link: "https://github.com/thompsonsolomon/Project",
   },
   {
