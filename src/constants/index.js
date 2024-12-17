@@ -192,7 +192,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Social media app",
+    name: "Sociaunifi",
     description:
       "Web-based platform that allows users to chat, watch videos, and manage friend request, providing a convenient and efficient solution for communication and entertainment needs.",
     tags: [
@@ -211,7 +211,7 @@ const projects = [
     ],
     image: Current,
     main_app_link: "https://thompsonsolomonsocialapp.netlify.app/",
-    source_code_link: "https://github.com/thompsonsolomon/SocialApp",
+    source_code_link: "https://sociaunifi.netlify.app/",
   },
   {
     name: "Trailer Trove ",
@@ -236,7 +236,7 @@ const projects = [
     source_code_link: "https://github.com/thompsonsolomon/Project",
   },
   {
-    name: "Video Call App",
+    name: "Talk Tube",
     description:
       "A comprehensive Video call platform that allows users to make calls, shear emotions  and offers more than expected satisfaction.",
     tags: [
@@ -255,7 +255,7 @@ const projects = [
     ],
     image: video,
     source_code_link: "https://thompsonsolomon-video-call.netlify.app",
-    main_app_link: "https://github.com/thompsonsolomon/VideoChatServer",
+    main_app_link: "https://tolktube.netlify.app/",
   },
 ];
 
