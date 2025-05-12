@@ -236,7 +236,7 @@ const projects = [
     source_code_link: "https://github.com/thompsonsolomon/Project",
   },
   {
-    name: "Talk Tube",
+    name: "Talk Tube(videocall app)",
     description:
       "A comprehensive Video call platform that allows users to make calls, shear emotions  and offers more than expected satisfaction.",
     tags: [
