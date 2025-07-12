@@ -24,7 +24,7 @@ export const fetchAnalyticsData = async () => {
   try {
     // This would require setting up Google Analytics Reporting API
     // For now, returning mock data
-    const res = await fetch("http://localhost:5000/analytics");
+    const res = await fetch("https://thompsonsolomonmailserver.onrender.com/analytics");
     const data = await res.json();
     return data;
   } catch (error) {
