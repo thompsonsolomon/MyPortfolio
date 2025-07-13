@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import LoadingSpinner from "../utils/ui";
 
 const Contact = () => {
   const [Error, setError] = useState("");
@@ -112,7 +113,8 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ?    
+        <div className={`animate-spin rounded-full h-[30px]  w-[30px] border-b-4 border-emerald-800 mx-auto mb-4`}></div>: "Send"}
           </button>
         </form>
       </motion.div>
